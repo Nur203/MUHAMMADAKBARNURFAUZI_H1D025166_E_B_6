@@ -56,11 +56,11 @@ Penerapan 10 konsep teknis pada sistem:
 ## Cara Menjalankan Program
 ### 1. Clone Repository Github
 ```bash
-git clone https://github.com/Nur203/RumahSakitSuki
+git clone https://github.com/Nur203/MUHAMMADAKBARNURFAUZI_H1D025166_E_B_6
 ```
 ### 2. Masuk ke Folder Repository
 ```bash
-cd RumahSakitSuki
+cd MUHAMMADAKBARNURFAUZI_H1D025166_E_B_6
 ```
 ### 3. Compile Program
 ```bash
