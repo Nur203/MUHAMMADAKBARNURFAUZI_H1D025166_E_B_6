@@ -25,3 +25,5 @@ javac *.java
 ```bash
 java Main
 ```
+# Hasil Output
+![Image](https://cdn.discordapp.com/attachments/1304457363109056632/1568581748764311764/image.png?ex=6af05717&is=6aef0597&hm=263128bf7fc4a149b8c1e6948a4645efd3a6693c3e81e2d4fd1121ea6d4b18b7)
