@@ -48,6 +48,6 @@ public class RawatInap extends Pasien implements Pemeriksaan, Pembayaran {
         super.tampilkanInfo();
         System.out.println("Jenis         : Rawat Inap");
         System.out.println("Lama Menginap : " + lamamenginap + " hari");
-        System.out.println("Biaya         : Rp" + hitungbiaya());
+        System.out.println("Biaya         : Rp" + (long) hitungbiaya());
     }
 }
