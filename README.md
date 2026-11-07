@@ -50,4 +50,4 @@ javac *.java
 java Main
 ```
 # Hasil Output
-![Image]([https://cdn.discordapp.com/attachments/1304457363109056632/1568581748764311764/image.png?ex=6af05717&is=6aef0597&hm=263128bf7fc4a149b8c1e6948a4645efd3a6693c3e81e2d4fd1121ea6d4b18b7](https://media.discordapp.net/attachments/1304457363109056632/1568603560009015448/image.png?ex=6af06b67&is=6aef19e7&hm=014c31d97a535bd49e8bdb9692f64de5058707eea0dadb206264b818e487c5a7&=&format=webp&quality=lossless))
+![Image](https://cdn.discordapp.com/attachments/1304457363109056632/1568603560009015448/image.png?ex=6af06b67&is=6aef19e7&hm=014c31d97a535bd49e8bdb9692f64de5058707eea0dadb206264b818e487c5a7)
