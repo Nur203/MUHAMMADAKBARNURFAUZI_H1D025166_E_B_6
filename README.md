@@ -6,6 +6,28 @@ SHIFT AWAL :
 SHIFT AKHIR : B 
 
 # Tema Sistem Rumah Sakit
+## Alur Program
+1. Program dijalankan melalui class Main.java class ini membuat objek RumahSakit kemudian memanggil method jalankan() yang ada di dalam Class RumahSakit
+2. Di dalam class RumahSakit program membuat dua objek pasien
+    Pasien pertama bernama Budi dengan jenis perawatan RawatJalan
+    Pasien kedua bernama Ani dengan jenis perawatan RawatInap selama 3 hari
+3. Program ini menampilkan informasi setiap pasien yaitu: 
+   Nomor rekam medis
+   Nama Pasien
+   Status Pasien
+   Jenis Perawatan
+   Biaya Perawatan
+  Method tampilkanInfo() digunakan untuk menampilkan informasi dasar dan informasi tambahan sesuai jenis perawatan masing masing pasien
+4. Program ini memiliki interface Pemeriksaan untuk menjalankan pemeriksaan pasien. Setiap pasien menjalani dua tahap perubahan status
+   1. Status Menunggu berubah menjadi Diperiksa
+   2. Status Diperiksa berubah menjadi Selesai
+    Perubahan status dilakukan melalui method prosesPelayanan() menggunakan percabangan if-else
+5. Setelah pemeriksaan dilakukan dan selesai program menghitung biaya pemeriksaan melalui interface Pembayaran
+   Ketentuan biaya itu sendiri
+   Rawat Jalan : Rp150.000
+   Rawat Inap  : Rp300.000/hari
+   Selanjutnya method bayar() dijalankan jika pemeriksaan sudah selesai tetapi pasien belum membayar, pembayaran berhasil diproses dan status pasien berubah menjadi Lunas
+6. Setelah pembayaran selesai program menampilkan kembali informasi setiap pasien untuk menunjukkan status akhir jika kedua pasien telah membayar dan pembayaran berhasil maka kedua pasien tersebut akan memiliki status Lunas
 ## Fitur Program
 
 1. Menampilkan informasi pasien
