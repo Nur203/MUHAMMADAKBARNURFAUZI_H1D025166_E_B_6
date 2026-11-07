@@ -41,6 +41,6 @@ public class RawatJalan extends Pasien implements Pemeriksaan, Pembayaran {
     public void tampilkanInfo(){
         super.tampilkanInfo();
         System.out.println("Jenis         : Rawat Jalan");
-        System.out.println("Biaya         : Rp" + hitungbiaya());
+        System.out.println("Biaya         : Rp" + (long) hitungbiaya());
     }
 }
