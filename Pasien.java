@@ -1,5 +1,5 @@
 public abstract class Pasien {
-    public static final String NAMA_RS = "RS NGAWI";
+    public static final String NAMA_RS = "Rumah Sakit Ngawi";
     private final String nomorRM;
     private final boolean statusbayar;
     private String nama;
