@@ -71,4 +71,4 @@ javac *.java
 java Main
 ```
 ## Hasil Output
-![Image](https://cdn.discordapp.com/attachments/1304457363109056632/1568605031438090352/image.png?ex=6af06cc6&is=6aef1b46&hm=ca796e02e41d3cddb8e4aa3ff61a6e37be01d88a53db6a726f116dbec35774db)
+![Image](https://cdn.discordapp.com/attachments/1304457363109056632/1568667044487102675/image.png?ex=6af0a687&is=6aef5507&hm=58a2bd70867f3402eaaadc99e89f890aae78c5486e2e5c5ee7a273b1260af9b9)
