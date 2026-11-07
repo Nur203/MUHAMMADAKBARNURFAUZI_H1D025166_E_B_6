@@ -8,24 +8,28 @@ SHIFT AKHIR : B
 ## Tema Sistem Rumah Sakit
 ### Alur Program
 
-1. Program dijalankan melalui class Main.java class ini membuat objek RumahSakit kemudian memanggil method jalankan() yang ada di dalam Class RumahSakit
-2. Di dalam class RumahSakit program membuat dua objek pasien
+1. *Inisialisasi*  
+Program dijalankan melalui class Main.java class ini membuat objek RumahSakit kemudian memanggil method jalankan() yang ada di dalam Class RumahSakit
+2. *Pembuatan Objek Pasien*   
+Di dalam class RumahSakit program membuat dua objek pasien
     * Pasien pertama bernama Rusdi dengan jenis perawatan RawatJalan
     * Pasien kedua bernama Bersiaplah dengan jenis perawatan RawatInap selama 3 hari
-3. Menampilkan informasi setiap pasien:  
+3. *Informasi Awal Pasien*   
     * Nomor Rekam Medis
     * Nama Pasien
     * Status Pemeriksaan (default = Menunggu)
     * Status Pembayaran (default = Belum Lunas)
     * Jenis Perawatan (Rawat Jalan / Rawat Inap)
     * Lama Menginap
-    * Total Biaya
+    * Total Biaya  
    Informasi ini ditampilkan memanfaatkan method tampilkanInfo() yang dioverride di masing masing subclass.
-4. Program ini menggunakan interface Pemeriksaan untuk menjalankan pemeriksaan pasien. Setiap pasien menjalani dua tahap perubahan status
+4. *Simulasi Pemeriksaan Pasien*  
+Program ini menggunakan interface Pemeriksaan untuk menjalankan pemeriksaan pasien. Setiap pasien menjalani dua tahap perubahan status
     * Status Menunggu berubah menjadi Diperiksa
     * Status Diperiksa berubah menjadi Selesai Diperiksa
    Perubahan status dilakukan melalui method prosesPelayanan() menggunakan percabangan if-else
-5. Setelah pemeriksaan dilakukan dan selesai program menghitung biaya pemeriksaan melalui interface Pembayaran
+5. *Proses Pembayaran*  
+Setelah pemeriksaan dilakukan dan selesai program menghitung biaya pemeriksaan melalui interface Pembayaran
    Ketentuan biaya itu sendiri
    * Rawat Jalan : Rp150.000
    * Rawat Inap : Rp300.000/hari  
@@ -33,7 +37,8 @@ SHIFT AKHIR : B
     Method bayar() akan dipanggil saat status pemeriksaan pasien bernilai "Selesai Diperiksa". 
    * Jika status bayar bernilai true (seperti pada pasien Rusdi), pembayaran berhasil diproses dan atribut statuslunas diperbarui menjadi "Lunas".
    * Jika bernilai false (seperti pada pasien Bersiaplah), program menampilkan pesan "Pembayaran belum dilakukan" dan status tetap "Belum Lunas".
-6. Setelah pembayaran selesai program mencetak rekapitulasi akhir pembayaran dengan format yang rapi dan sejajar untuk memverifikasi apakah status pembayaran pasien sudah terbarui dengan benar.
+6. *Menampilkan Status Akhir*   
+Setelah pembayaran selesai program mencetak rekapitulasi akhir pembayaran dengan format yang rapi dan sejajar untuk memverifikasi apakah status pembayaran pasien sudah terbarui dengan benar.
 
 ### Fitur Program
 
