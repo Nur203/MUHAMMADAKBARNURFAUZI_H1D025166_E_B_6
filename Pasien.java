@@ -6,7 +6,6 @@ public abstract class Pasien {
     private String status;
     private String statuslunas;
 
-    //Constructor pasien pertama
     public Pasien(String nomorRM, String nama) {
         this.nomorRM = nomorRM;
         this.nama = nama;
@@ -15,7 +14,6 @@ public abstract class Pasien {
         this.statusbayar = true;
     }
 
-    //Constructor pasien kedua
     public Pasien(String nomorRM, String nama, String status, boolean statusbayar){
         this.nomorRM = nomorRM;
         this.nama = nama;
@@ -24,7 +22,6 @@ public abstract class Pasien {
         this.statusbayar = statusbayar;
     }
 
-    //Getter
     public String getNomorRM(){
         return nomorRM;
     }
@@ -41,7 +38,6 @@ public abstract class Pasien {
         return statusbayar;
     }
 
-    //Setter
     public void setNama(String nama){
         this.nama = nama;
     }
@@ -52,7 +48,6 @@ public abstract class Pasien {
         this.statuslunas = statuslunas;
     }
 
-    //Menampilkan informasi pasien
     public void tampilkanInfo(){
         System.out.println("Nomor RM         : " + nomorRM);
         System.out.println("Nama             : " + nama);
@@ -60,6 +55,5 @@ public abstract class Pasien {
         System.out.println("Status Pembayarn : " + statuslunas);
     }
 
-    //Abstract method
     public abstract  void prosesPelayanan();
 }
