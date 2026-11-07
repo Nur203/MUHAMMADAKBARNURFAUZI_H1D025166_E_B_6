@@ -12,7 +12,7 @@ SHIFT AKHIR : B
 2. Di dalam class RumahSakit program membuat dua objek pasien
     * Pasien pertama bernama Rusdi dengan jenis perawatan RawatJalan
     * Pasien kedua bernama Bersiaplah dengan jenis perawatan RawatInap selama 3 hari
-3. Program ini menampilkan informasi setiap pasien yaitu:  
+3. Menampilkan informasi setiap pasien:  
     * Nomor Rekam Medis
     * Nama Pasien
     * Status Pemeriksaan (default = Menunggu)
@@ -21,7 +21,7 @@ SHIFT AKHIR : B
     * Lama Menginap
     * Total Biaya
    Informasi ini ditampilkan memanfaatkan method tampilkanInfo() yang dioverride di masing masing subclass.
-4. Program ini memiliki interface Pemeriksaan untuk menjalankan pemeriksaan pasien. Setiap pasien menjalani dua tahap perubahan status
+4. Program ini menggunakan interface Pemeriksaan untuk menjalankan pemeriksaan pasien. Setiap pasien menjalani dua tahap perubahan status
     * Status Menunggu berubah menjadi Diperiksa
     * Status Diperiksa berubah menjadi Selesai Diperiksa
    Perubahan status dilakukan melalui method prosesPelayanan() menggunakan percabangan if-else
