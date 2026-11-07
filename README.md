@@ -51,11 +51,19 @@ Setelah pembayaran selesai program mencetak rekapitulasi akhir pembayaran dengan
 7. Menampilkan status akhir pasien setelah pembayaran
 
 ## Cara Menjalankan Program
-### 1. Compile Program
+### 1. Clone Repository Github
+```bash
+git clone https://github.com/Nur203/RumahSakitSuki
+```
+### 2. Masuk ke Folder Repository
+```bash
+cd RumahSakitSuki
+```
+### 3. Compile Program
 ```bash
 javac *.java
 ```
-### 2. Jalankan Program
+### 4. Jalankan Program
 ```bash
 java Main
 ```
