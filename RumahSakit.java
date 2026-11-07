@@ -1,18 +1,15 @@
 public class RumahSakit {
     private Pasien[] daftarpasien = new Pasien[2];
     public void jalankan(){
-        // Membuat pasien
         daftarpasien[0] = new RawatJalan("RM001", "Rusdi", true);
         daftarpasien[1] = new RawatInap("RM002", "Bersiaplah", 3, false);
 
-        // Menampilkan data pasien
         System.out.println(Pasien.NAMA_RS);
         for (int i = 0; i < daftarpasien.length; i ++){
             System.out.println("\nData Pasien " + (i + 1));
             daftarpasien[i].tampilkanInfo();
         }
-
-        // Pemeriksaan
+        
         System.out.println("\nPEMERIKSAAN");
         for (int i = 0; i < daftarpasien.length; i++){
             Pemeriksaan pasien = (Pemeriksaan) daftarpasien[i];
@@ -22,7 +19,6 @@ public class RumahSakit {
             System.out.println("Status : " + daftarpasien[i].getStatus());
         }
 
-        // Pembayaran
         System.out.println("\nPEMBAYARAN");
         for (int i = 0; i < daftarpasien.length; i++) {
             Pembayaran pembayaran = (Pembayaran) daftarpasien[i];
